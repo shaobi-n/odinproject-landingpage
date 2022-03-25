@@ -8,9 +8,9 @@
   background-color: #1f2937;
   color: wheat;
   flex-direction: row;
-  justify-content: space-around;
   font-size: 24px;
-  padding-bottom: 70px;
+  padding-bottom: 38px;
+  justify-content: space-evenly;
 }
 .headerlogo {
   display: flex;
@@ -27,43 +27,49 @@
 /* Hero */
 .hero {
   background-color: #1f2937;
+  color: white;
   display: flex;
-  color: wheat;
-  justify-content: space-around;
-  padding-bottom: 24px;
-  gap: 8px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .heroright {
-  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(167, 65, 65);
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  border-radius: 15px;
 }
 
-#herohead {
-  color: wheat;
-  font-size: 48px;
-}
-
-#herotext {
-  font-size: 24px;
-  color: wheat;
-  flex-wrap: wrap;
-}
-
-.heroleft,
-.heroright {
+.heroleft {
   display: flex;
   flex-direction: column;
 }
 
-.heroright {
-  align-items: center;
-  justify-content: center;
-  border-radius: 15px;
-  width: 600px;
+#herohead {
+  font-size: 48px;
 }
+#herotext {
+  font-size: 18px;
+}
+
 button {
-  font-size: 24px;
+  font-size: 18px;
   background-color: #3882f6;
-  color: wheat;
-  padding: 10px;
-  border-radius: 15px;
+  color: white;
+  border-radius: 12px;
+  padding: 30x;
+}
+
+.boxes {
+  background-color: rgb(97, 92, 92);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourboxcontainer {
+  display: flex;
 }
