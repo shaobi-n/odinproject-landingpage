@@ -30,7 +30,8 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
 }
 .heroright {
   display: flex;
@@ -55,7 +56,7 @@
   font-size: 18px;
 }
 
-button {
+#button1 {
   font-size: 18px;
   background-color: #3882f6;
   color: white;
@@ -98,8 +99,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 1s;
 }
-
 .box1,
 .box2,
 .box3,
@@ -110,18 +111,19 @@ button {
   flex-direction: column;
 }
 
+img {
+  height: 150px;
+  width: 150px;
+}
+
 /* Quote section */
 .quotesection {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
   color: white;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 30px;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 .quotebox {
   display: flex;
@@ -129,10 +131,72 @@ button {
   background-color: #1f2937;
   justify-content: center;
   height: 400px;
-  width: 1000px;
+  width: 1200px;
+  padding: 60px;
+}
+.quote {
+  display: flex;
+  font-size: 30px;
+}
+
+.quote > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: center;
 }
 .quotename {
   display: flex;
   justify-content: flex-end;
-  font-size: 32px;
+}
+.quotename > p {
+  font-size: 40px;
+  font-weight: 500;
+}
+/* Sign Up Section */
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(97, 92, 92);
+  padding: 150px;
+}
+.bluebox {
+  background: wheat;
+  padding: 150px;
+  width: 1200px;
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+
+.calltoaction > h2,
+.calltoaction > p {
+  font-size: 30px;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.calltoaction {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#secondbutton {
+  border-radius: 40px;
+  font-size: 20px;
+  align-items: center;
+  background: #afafe4;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: rgb(215, 202, 178);
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
